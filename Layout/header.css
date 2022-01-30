@@ -1,0 +1,31 @@
+.logo {
+  color: var(--primary-color);
+  margin-left: 35px;
+}
+
+.headNav {
+  display: flex;
+  top: 0;
+  z-index: 1;
+  background-color: var(--primary-bg);
+  color: var(--primary-color);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  font-size: 50px;
+  padding: 0.5rem;
+  /* position: relative; */
+}
+
+.title-O {
+  color: var(--primary-dark-color);
+}
+
+.title-excla {
+  color: var(--primary-dark-color);
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+a {
+  text-decoration: none;
+}
