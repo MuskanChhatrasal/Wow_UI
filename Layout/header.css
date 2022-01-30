@@ -26,6 +26,31 @@
   font-size: 60px;
 }
 
+.nav {
+  display: flex;
+  flex-direction: column;
+  grid-area: nav;
+  position: sticky;
+  align-items: flex-start;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.title-lg {
+  font-weight: 900;
+  margin: 1rem;
+  color: var(--text-dark);
+}
+
+.headNav {
+  grid-area: headNav;
+}
+
 a {
   text-decoration: none;
 }

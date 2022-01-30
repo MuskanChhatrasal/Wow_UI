@@ -4,3 +4,16 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: grid;
+  grid-template-areas:
+    "headNav headNav headNav"
+    "nav body body"
+    "... body body";
+  position: relative;
+}
